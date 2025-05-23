@@ -1,0 +1,284 @@
+   *{
+      padding:0px;margin:0px;
+      box-sizing: border-box;
+    }
+   body{
+     display:flex;
+     justify-content: center;
+     background-image:url("/udemy/Assignment /control panel_Red/mahadev2.jpg");
+   }
+   .card{
+     width:355px; height:700px;
+     background-color:rgba(0,0,0,0.3);
+     backdrop-filter:blur(15px);
+     margin-top:50%;
+     position: fixed;
+     display:flex;
+   }
+   .first{
+     width:155px;height:130px;
+     border:1px solid black;
+     margin:60px 10px 20px 40px;
+     border-radius:30px;
+     display:flex;
+     flex-wrap: wrap;
+     background-color: black;
+     border:nonne;
+   }
+   
+   .second{
+     width:155px;height:130px;
+     border:1px solid black;
+     margin:60px 40px 20px 10px;
+     border-radius:30px;
+     display:flex;
+     flex-wrap: wrap;
+     background-color: black;
+     border:none;
+   }
+   .first_item{
+     width:50px;height:50px;
+     border:1px solid black;
+     border-radius: 50px;
+     margin: 8px 0px 5px 8px;
+     background-color:rgba(94,15,10,.5);
+     border:none;
+   }
+   .first img{
+     width:28px;height:28px;
+     margin: 9px 0px 1px 10px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   }
+     .second_item{
+     width:50px;height:50px;
+     
+     border-radius: 50px;
+     margin: 8px 0px 5px 8px;
+   }
+   #music{
+     width:100px;height:22px;
+     margin-left: 12px;
+     border:none;
+     
+   }
+   #music img{
+     width:20px;height:20px;
+     margin: 0px 0px 1px 10px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   }
+   .second p{
+     font-size: 13px;
+     margin:1px 5px 0px 9px;
+     color:red;
+     
+   }
+   #music_logo{
+     border-radius: 15px;
+   }
+   #music_logo img{
+     width:50px;height:50px;
+     border-radius: 15px;
+   }
+   
+   #music_icon{
+     width:38px;height:38px;
+     border-radius: 38px;
+     margin-left:20px;
+     background-color:rgba(94,15,10,.5);
+     
+   }
+   #music_icon img{
+     width:22px;height:22px;
+     margin: 5px 0px 1px 5px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   }
+   .third{
+     display:flex;
+     float:left;
+     position: absolute;
+     top:200px;
+     left:30px;
+   }
+   .third_item{
+    
+     width:60px;height:60px;
+     
+     border-radius: 60px;
+     margin: 8px 7px 7px 6px;
+     background-color:red;
+     
+     
+   }
+   .third_item p{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 28px;
+     text-align: center;
+     line-height: 60px;
+   }
+   #home{
+     background-color: black;
+   }
+   #home img{
+     width:38px;height:38px;
+     margin: 9px 0px 1px 10px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+     
+   }
+   .fourth{
+     display:flex;
+     float:left;
+     position: absolute;
+     top:272px;
+     left:30px;
+   }
+   .fourth_item{
+    
+     width:133px;height:60px;
+     
+     border-radius: 28px;
+     margin: 8px 7px 7px 6px;
+   }
+   #dark{
+     background-color: black;
+   }
+   #dark2{
+     width:42px;height:42px;
+    
+     border-radius: 42px;
+     margin: 8px 0px 5px 12px;
+     background-color:rgba(94,15,10,.5);
+   }
+   #dark2 img{
+     width:25px;height:25px;
+     margin: 7px 5px 1px 7px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   }
+   #spider{
+     background-color: red;
+   }
+   #spider img{
+     margin:8px 2px 2px 10px;
+     width:35px;height:35px;
+     
+   }
+   #spider p{
+     
+     float:right;
+     text-align:center;
+     font-size: 15px;
+     margin:6px 19px 2px 0px;
+     font-weight: bold;
+   }
+  
+   .fiveth{
+ 
+    width:160px;height:160px;
+     display:flex;
+     flex-wrap: wrap;
+     position: absolute;
+     top:346px;
+     left:23px;
+   }
+   
+   .fiveth_item{
+     width:60px;height:60px;
+   
+     border-radius: 60px;
+     margin: 8px 4px 7px 11px;
+     background-color: black;
+   }
+   .fiveth_item img{
+     width:38px;height:38px;
+     margin: 9px 0px 1px 10px;
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   
+   }
+   #lock{
+     background-color: red;
+   }
+   #lock img{
+    filter:none;
+   }
+  
+    .sixth{
+     display:flex;
+     float:left;
+     position: absolute;
+     top:346px;
+     left:180px;
+   }
+   .sixth_item{
+    
+     width:60px;height:133px;
+    
+     border-radius: 28px;
+     margin: 8px 4px 7px 6px;
+   }
+   .seventh{
+     display:flex;
+     float:left;
+     position: absolute;
+     top:508px;
+     left:30px;
+   }
+   .seventh_item{
+    
+     width:60px;height:60px;
+   
+     border-radius: 60px;
+     margin: 8px 7px 7px 6px;
+     background-color: black;
+   }
+   
+   
+   
+   #light{
+     background-image:linear-gradient(black 30%,red 30%) 
+   }
+   
+   
+   #speaker{
+     background-image:linear-gradient(black 50%,red 50%) 
+   }
+   
+   .sixth_item img{
+     width:29px;height:29px;
+     margin:83px 1px 1px 12px;
+   }
+   
+   
+   .seventh_item img{
+     width:38px;height:38px;
+     margin: 9px 0px 1px 10px;
+     
+   }
+   #bettery{
+     background-color:red ;
+   }
+   #camera{
+     background-color: black;
+   }
+   #camera img{
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+     
+   }
+   #location img{
+     filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+   }
+   #spider_head img{
+     width :59px;height:59px;
+     border-radius:60px;
+     margin:0px 10px 11px 0px;
+     border:none;
+   }
+   @media only screen and (min-width:200px) and (max-width:575px) {
+     .card{
+       bottom:6px;
+       
+     }
+     body{
+       width:340px;height:700px;
+       margin-left:10px;
+     }
+   }
+
